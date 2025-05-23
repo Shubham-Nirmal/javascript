@@ -28,6 +28,8 @@ do {
     score++
 } while (score <= 10);
 
+//shubham
+
 // out put => score is 1
 // score is 2
 // score is 3
