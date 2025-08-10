@@ -6,24 +6,23 @@
 
 const JsUser = {
     name: "Shubham",
-    
-    age : 18,
-   Gmail: "shubham@gmail.com",
-   isLoggedIn :false,
-   LasLoginDass:["sunda","Monda"]
+     age : 18,
+    Gmail: "shubham@gmail.com",
+    isLoggedIn :false,
+    LastLoginDays:["sunday","Monday"]
 
 }
 
-// Acces objec 
+// Acces object  
 
-// console.log(JsUser.age);
-// console.log(JsUser["Gmail"]);
+//  console.log(JsUser.age);
+//  console.log(JsUser["Gmail"]);
 
 
 // O P => 18
 
 // O P => shubham@gmail.com
-// 
+
 
 // checnge value
 
@@ -33,7 +32,7 @@ Gmail = "shubham@chagp.com"
 
 //Lock objec using freeze key word
 
-Object.freeze(JsUser)
+// Object.freeze(JsUser)
 
 JsUser.Gmail = "hiesh@microsof.com"
 
@@ -47,9 +46,11 @@ JsUser.greeting = function(){
     console.log("Hello Js user ");
     
 }
+console.log(JsUser.greeting); //out put => undefined 
+console.log(JsUser.greeting()); //out put => Hello Js user
 
 JsUser.greetingTwo = function(){
-    // console.log(`Hello Js user, ${this.name} `); //out opt => Hello Js user shubham 
+     console.log(`Hello Js user, ${this.name} `); //out opt => Hello Js user shubham 
     
 }
 

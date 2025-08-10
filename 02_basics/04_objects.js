@@ -1,12 +1,14 @@
-//const tinderUser = new Object() //out put = > {}
+// const tinderUser = new Object() //out put = > {}
 
-const tinderUser = {}
+//  console.log(tinderUser);
+
+ const tinderUser = {} 
 
 tinderUser.id = "123abc"
 tinderUser.name= "sam"
 tinderUser.isLoggedIn= false
 
-// console.log(tinderUser);
+//  console.log(tinderUser);
 
 
 const regularUser = {
@@ -15,7 +17,7 @@ const regularUser = {
     fullname: {
         userfullname:{
             frisname:"hiesh",
-            lasname: "nirmal"
+            lastname: "nirmal"
         }
     }
 }
@@ -30,14 +32,14 @@ const obj1 = {1: "a", 2:"b"}
 
 const obj2 = {3:"a", 4 : "b"}
 
-const obj3 = {obj1, obj2 }
+// const obj3 = {obj1, obj2 }
 
 //   console.log(obj3);
 //  out put => { obj1: { '1': 'a', '2': 'b' }, obj2: { '3': 'a', '4': 'b' } }
 
-//  const obj3 = Object.assign({}, obj1 , obj2 ) //out put => { '1': 'a', '2': 'b', '3': 'a', '4': 'b' }
+  const obj3 = Object.assign({}, obj1 , obj2 ) //out put => { '1': 'a', '2': 'b', '3': 'a', '4': 'b' }
 
-//  console.log(obj3);
+//        console.log(obj3);
 
 // const obj3 = {...obj1, ...obj2}
 // console.log(obj3);
@@ -83,7 +85,7 @@ const course = {
 
 const {courseInsrucor} = course
 
-console.log(courseInsrucor);
+// console.log(courseInsrucor);
 
 
 
